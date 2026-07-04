@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
-        "outDir": "dist",
-        "rootDir": "src",
-        "strict": true,
-        "esModuleInterop": true,
-        "removeComments": true
-    }
+        "outDir": "dist"
+    },
+    "include": [
+        "*.tsx",
+        "*.ts",
+        "components/**/*"
+    ]
 }
