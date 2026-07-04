@@ -23,4 +23,4 @@ jobs:
         run: npm ci
 
       - name: Run build
-        run: npm run build
+        run: npm install & npm run build
